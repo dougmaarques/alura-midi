@@ -18,8 +18,9 @@ body {
 
 h1 {
   color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 3rem;
 }
 
 .teclado {
@@ -27,9 +28,9 @@ h1 {
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
+  padding: 20px;
 }
 
 .tecla {
@@ -64,4 +65,13 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+
+footer{
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+  font-size: 15px;
+  margin: 20px 5px 5px 5px;
 }
